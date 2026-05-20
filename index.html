@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1779273506-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Shark Casino Online Platform for Slots, Live Casino Games, Table Games, Originals, Rewards, Promotions, Sportsbook Access, and Responsible Gaming</title>
+    <meta name="description"
+          content="Shark Casino is an online casino operated by Astor Holdings Ltd, offering casino games, live games, slots, table games, Shark Rewards, promotions, and responsible gaming tools.">
+    <link rel="canonical" href="https://sharkcasino-online.com">
+    <meta property="og:title" content="Shark Casino Online Platform for Slots, Live Casino Games, Table Games, Originals, Rewards, Promotions, Sportsbook Access, and Responsible Gaming">
+    <meta property="og:description"
+          content="Shark Casino is an online casino operated by Astor Holdings Ltd, offering casino games, live games, slots, table games, Shark Rewards, promotions, and responsible gaming tools.">
+    <meta property="og:url" content="https://sharkcasino-online.com">
+    <meta property="og:site_name" content="Shark Casino Online Platform for Slots, Live Casino Games, Table Games, Originals, Rewards, Promotions, Sportsbook Access, and Responsible Gaming">
+    <meta property="og:locale" content="en-CA">
+    <meta property="og:image" content="_assets/images/1779273555-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="sharkcasino-online.com">
+    <meta name="twitter:title" content="Shark Casino Online Platform for Slots, Live Casino Games, Table Games, Originals, Rewards, Promotions, Sportsbook Access, and Responsible Gaming">
+    <meta name="twitter:description"
+          content="Shark Casino is an online casino operated by Astor Holdings Ltd, offering casino games, live games, slots, table games, Shark Rewards, promotions, and responsible gaming tools.">
+    <meta name="twitter:image" content="_assets/images/1779273555-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1779273563-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en-CA">
+
+    <link rel="apple-touch-icon" href="_assets/images/1779273501-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1779273501-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1779273593-main.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://sharkcasino-online.com" />
+    <link rel="alternate" hreflang="en" href="https://sharkcasino-online.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#96D10C"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#21BDC7"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#96D10C"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#96D10C"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#21BDC7"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://sharkcasino-online.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1779273506-logo.svg" alt="Shark Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Sign Up" id="navSignUp"> Sign Up </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Play Now" id="navPlayNow"> Play Now </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Shark Casino Online: A Licensed Digital Gaming Platform with Slots, Live Casino Entertainment, Shark Rewards, Promotions, and Responsible Play Tools</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">More Info</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Diverse casino categories</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Licensed online operator</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Structured reward levels</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Responsible gaming tools</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Active promotional offers</p>
+                                </li>
+                                <li class="providersGroup">We shape our Shark Casino experience around broad game access, clear reward mechanics, official licensing information, and player-focused support. Our guests can explore Originals, Featured Games, Slot Games, Live Games, Table Games, Crash Games, Shark Specials, Virtual Sports, Bingo, Keno, Scratch Cards, Minigame titles, and game providers through one online casino platform.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Shark Mobile App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1779273694-mobile.webp" title="Shark Casino Mobile"
+                                alt="Shark Mobile App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Shark Mobile App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Shark Mobile App" title="Shark Mobile App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About the Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Shark Casino is an online casino platform where we bring together multiple gaming categories for our guests. Our casino lobby includes featured games, new games, Originals, slots, live games, table games, crash games, Shark Specials, virtual sports, bingo, keno, scratch cards, minigames, and provider-based browsing.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Shark Casino lists 9,234 New Games on the official casino page.</li>
+                                        <li class="historyItem">Our casino page includes 57 Game Providers.</li>
+                                        <li class="historyItem">Shark Rewards includes XP, level progression, the Shark Shop, and a daily spin wheel.</li>
+                                    </ul>
+                                    <p class="historyDescription">Our game library is structured for variety and discovery. The official casino page lists 11 Originals, 9,234 New Games, 7,418 Slot Games, 921 Live Games, 394 Table Games, and 57 Game Providers, giving our guests a wide selection of ways to explore casino entertainment.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1779273748-desktop.webp" alt="Shark " title="Shark Casino Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">We support engagement through Shark Rewards and promotions. Our rewards page explains that guests begin earning rewards from the first bet, collect XP, progress through shark-themed levels, access the Shark Shop, receive weekly shop updates, and can use a daily spin wheel available every day at 5pm GMT.
+
+Our casino is operated by Astor Holdings Ltd and is licensed by the Finance Authority of the State of Anjouan under The Computer Gaming Licensing Act 007 of 2005, license number 15727. We also provide responsible gaming tools, including deposit limits, time reminders, self-exclusion options, and account history tracking, supported by a dedicated team trained to assist guests.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Shark Casino — Ocean-Themed Atmosphere, Game Areas and Online Entertainment</h2>
+                        <div class="historyDescription">
+<p>
+Shark Casino is our online casino with a bold ocean-inspired atmosphere, where every area is shaped around pace, energy and the feeling of diving deeper into play. We bring casino, sports book, rewards, promotions, live casino, table games, crash games, Shark Specials, Originals, slots, bingo, keno, scratch cards, minigames and virtual sports into one convenient lobby. Our casino is available online every day, giving users the freedom to choose favourite games, bonuses and events at the right time. In the Originals area, we offer Limbo, Mines, Keno, Dice, Blackjack, Baccarat, Roulette, Advanced Dice, Plinko, Diamonds and Wheel. Shark Specials highlights themed titles such as Jaws of Justice, Big Bass Splash 1000, Release the Kraken Megaways, Octo Attack, Jawsome Pirates, Cursed Seas and Queen of Atlantis. Slot players can explore thousands of games, including new releases, featured games, jackpot-style titles and demo play. In live casino and table games, we focus on roulette, blackjack, baccarat, live formats and classic table entertainment. Instead of a physical bar or hotel, we provide a digital lounge experience where leisure, cashier tools, support, rewards and promotions are available directly inside the account. Shark Rewards adds Daily Spin Wheel, Shark Shop, cashback bonuses, weekly rewards, personalised offers and VIP-style service. We also develop the promotions area with Four Play on the first four deposits, Daily Prize Wheel and exclusive rewards. Shark Casino is built for users who want quick access, a deep game catalogue, premium presentation and a strong reward system. We make online entertainment flexible, vivid and immersive while keeping the Shark Casino identity across every section. :contentReference[oaicite:1]{index=1}
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:34%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Zone</th>
+      <th style="width:33%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Days</th>
+      <th style="width:33%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Hours</th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Shark Casino Online Lobby</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Originals and Shark Specials</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Slot Games and New Games</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Live Games and Table Games</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7, depending on live table availability</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Crash Games, Keno, Bingo and Scratch Cards</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Rewards, Promotions and Daily Prize Wheel</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily and by campaign schedule</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7 or by promotion terms</td>
+    </tr>
+  </table>
+</div>
+<br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Support, Languages, Payments and Withdrawals
+</h3>
+<p>
+At Shark Casino, we build service around fast assistance, clear instructions and secure player guidance. Our support helps with registration, login, bonuses, rewards, promotions, cashier actions, withdrawals, KYC checks and gameplay questions. The interface includes Support and Contact Us sections, with an email contact available for written requests. We keep communication practical, giving players clear steps for deposits, bonuses, withdrawals and account settings. Shark Casino is available through desktop, mobile and other supported platforms, so users can manage their account in a convenient digital format. :contentReference[oaicite:6]{index=6}
+</p>
+<br>
+<p>
+The current main service version of Shark Casino is presented in English, and the English version of the terms is the legally binding version for the relationship between the user and the platform. We use clear section names such as Lobby, Rewards, Promotions, Casino, Sports Book, Live Casino Games and New Games so players can quickly find the right area. For users who prefer structured service, the cashier, transaction history, support channels and bonus rules are especially important. We keep the account journey simple: register, log in, choose a game, deposit, activate a promotion and request a withdrawal. This approach supports confidence for both new users and active players. :contentReference[oaicite:7]{index=7}
+</p>
+<br>
+<p>
+For payments, Shark Casino supports fiat money and cryptocurrency operations, with available methods shown inside the account cashier. The terms state that the platform works with cryptocurrencies and fiat currency, including examples such as USD, EUR, BRL and CNY, while each deposit detail is checked by the user before confirmation. For cryptocurrency deposits, wallet and network information is displayed inside the deposit area, while cryptocurrency withdrawals are paid to the wallet address entered in the valid withdrawal request. The digital cashier works as the online equivalent of an ATM and exchange desk, showing balance, methods, fees, limits and transaction status. Upon the first deposit and later, we may carry out identity, address and payment-method or crypto-wallet ownership checks. :contentReference[oaicite:8]{index=8}
+</p>
+<br>
+<p>
+A withdrawal at Shark Casino begins with balance review, email verification, the selected method and completion of applicable requirements. For crypto withdrawals, the relevant deposit must receive at least 3 blockchain confirmations, while fiat withdrawals after approval may take up to 3 business days depending on the payment provider. We may request KYC documents, and withdrawals above $2,000 may require enhanced verification procedures. Once KYC and document checks are complete, withdrawal requests are processed within a maximum of 5 business days from the date all required documentation has been received and verified. Users are responsible for declaring and paying any applicable taxes, duties or charges on winnings; for most recreational players, winnings are generally not treated as taxable income unless play is professional or business-like activity. :contentReference[oaicite:9]{index=9}
+</p>
+<br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Access Rules, Account Entry and Comfortable Play
+</h3>
+<p>
+Shark Casino operates online, so users enter our casino through a personal Member Account. To play real-money games, including cryptocurrency play, the user first needs to register and open an account. We create a secure environment where the player confirms adult status, enters accurate details and plays only on their own behalf. At Shark Casino, users should use only legally obtained fiat or cryptocurrency funds that belong to them. One user may hold only one account, helping maintain a fair rewards, promotions and payout system. We may conduct KYC and identity verification at any time to protect the account, payments and withdrawals. No physical dress code is required for online play, so each user chooses a comfortable setting independently. In live casino, table games, chat and other game sections, we support respectful, proper and fair behaviour. Online access requires no parking, travel or reservation, only a device, internet connection and account access. Shark Casino is available through desktop, mobile and other supported platforms. The fast route inside our casino is simple: register, log in, open the cashier, then choose Casino, Sports Book, Rewards or Promotions. The main purpose of our rules is to make the gaming experience transparent, protected and comfortable. :contentReference[oaicite:11]{index=11}
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Access and Registration
+</h3>
+<ul>
+  <li>• Create a personal Shark Casino Member Account before real-money play.</li>
+  <li>• Enter accurate, current and complete details, including an accessible email address.</li>
+  <li>• Confirm that you play in a personal recreational capacity and on your own behalf.</li>
+  <li>• Use only your own fiat money, cryptocurrency, payment methods and crypto wallet.</li>
+  <li>• Keep one account per user to maintain fair access to bonuses and rewards.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Dress Code and Behaviour
+</h3>
+<ul>
+  <li>• No physical dress code is required for online play, so users choose their own comfortable atmosphere.</li>
+  <li>• In live games and table games, we support respectful conduct toward dealers, players and table rules.</li>
+  <li>• In promotions and rewards, users should follow conditions, deadlines, wagering rules and game restrictions.</li>
+  <li>• We create a positive gaming environment where fair play, transparency and responsible participation matter.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Restrictions and Prohibited Actions
+</h3>
+<ul>
+  <li>• Access is available only to users who meet age and registration requirements.</li>
+  <li>• Borrowed documents, third-party payments, third-party crypto wallets and inaccurate data are not permitted.</li>
+  <li>• Multiple accounts created to claim additional bonuses, rewards or promotions are not allowed.</li>
+  <li>• Fraud, automated play, IP masking, geo-location manipulation, suspicious transactions and bonus abuse are not allowed.</li>
+  <li>• Promotional rewards and bonus funds are used only under the rules of the selected offer.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Parking and How to Access Shark Casino
+</h3>
+<ul>
+  <li>• Online play at Shark Casino requires no parking, travel or entrance queue.</li>
+  <li>• Open the site from desktop, mobile or another supported device.</li>
+  <li>• Before playing, check internet access, account access, email and the selected payment method.</li>
+  <li>• The fastest path is Login or Register, then Lobby, Casino, Sports Book, Rewards, Promotions or Support.</li>
+</ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Shark Rewards, Tiers and Daily Spin Wheel
+</h3>
+<p>
+Shark Rewards is our reward system that turns player activity into cashback bonuses, weekly rewards, personalised promotions, Shark Shop access and premium service. We built the programme around the idea of diving deeper into luxury, where the user moves through levels and unlocks more opportunities. Shark Rewards includes Bronze, Silver, Gold, Diamond and Ruby. The tiers are linked to level ranges and wager amount: Bronze starts at $0, Silver begins at $10k wager amount, Gold at $50k, Diamond at $150k and Ruby at $450k. On Bronze, users already receive 10% wagering rewards, Shark Shop Access, Earn Rewards Right Away and Daily Spin Wheel. Silver grows to 12.5% wagering rewards and adds new shop items, redeem coins for cash and bonus growth. Gold unlocks 15% wagering rewards, new shop items, redeem coins for cash, Daily Spin Wheel and bonus growth. Diamond strengthens benefits to 17.5% wagering rewards, premium shop items, redeem coins for cash and bonus growth. Ruby is our ultimate level with 20% wagering rewards, bespoke rewards upon request, redeem rewards for cash, Daily Spin Wheel, bonus growth and VIP Manager. We also add Birthday Bonus Surprise, Priority Service, personalised bonus drops and higher limits for bigger plays. Shark Rewards is created for players who want more than gameplay: progression, personal attention and regular privileges. :contentReference[oaicite:13]{index=13}
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Registration Conditions
+</h3>
+<ul>
+  <li>• Active Shark Casino account — the basic requirement for participating in the rewards system.</li>
+  <li>• Compliance with age, registration and jurisdiction requirements.</li>
+  <li>• Verified account — bonuses are available to registered users with a confirmed profile.</li>
+  <li>• One account per user, with no linked duplicate profiles or repeated registration.</li>
+  <li>• Gameplay and wagering activity support progression through the levels.</li>
+  <li>• Shark Shop, Daily Spin Wheel and personalised rewards become part of the account experience through programme activity.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Shark Rewards Tiers and How to Reach Them
+</h3>
+<ul>
+  <li>• <strong>Bronze, Levels 1–12, Entry:</strong> $0 wager amount, 10% wagering rewards, Shark Shop Access, Earn Rewards Right Away and Daily Spin Wheel.</li>
+  <li>• <strong>Silver, Levels 13–24, Advanced:</strong> $10k wager amount, 12.5% wagering rewards, new shop items, redeem coins for cash, Daily Spin Wheel and bonus growth.</li>
+  <li>• <strong>Gold, Levels 25–39, Premium:</strong> $50k wager amount, 15% wagering rewards, new shop items, redeem coins for cash, Daily Spin Wheel and bonus growth.</li>
+  <li>• <strong>Diamond, Levels 40–51, Elite:</strong> $150k wager amount, 17.5% wagering rewards, premium shop items, redeem coins for cash, Daily Spin Wheel and bonus growth.</li>
+  <li>• <strong>Ruby, Levels 51–60, Ultimate:</strong> $450k wager amount, 20% wagering rewards, bespoke rewards upon request, redeem rewards for cash, Daily Spin Wheel, bonus growth and VIP Manager.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Bonuses and Benefits
+</h3>
+<ul>
+  <li>• <strong>Daily Spin Wheel:</strong> a daily reward mechanic with a chance to receive extra prizes.</li>
+  <li>• <strong>Shark Shop Access:</strong> a rewards shop where the user receives more options as the tier grows.</li>
+  <li>• <strong>Cashback bonuses:</strong> return-style bonuses adapted to the player’s style.</li>
+  <li>• <strong>Weekly rewards:</strong> regular rewards that keep activity engaging.</li>
+  <li>• <strong>Personalised Bonus Drops:</strong> personal bonuses matched to the user’s favourite games.</li>
+  <li>• <strong>Birthday Bonus Surprise:</strong> an individual reward for a special date.</li>
+  <li>• <strong>Priority Service:</strong> premium support and a dedicated account manager at higher service levels.</li>
+  <li>• <strong>Higher Limits, Bigger Plays:</strong> expanded possibilities for players moving into the deep end.</li>
+  <li>• <strong>VIP Manager:</strong> personal service at Ruby level.</li>
+  <li>• <strong>Win a Shark Diving Experience:</strong> a daily chance to win a shark diving experience as part of the rewards concept.</li>
+</ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Bonuses, Winnings, Promotions and Special Offers
+</h3>
+<p>
+At Shark Casino, we develop bonuses as part of a deeper gaming experience where promotions, rewards, shop items, Daily Prize Wheel and personal bonus drops work together. The main promotional mechanic for new users is Four Play, a deposit bonus on the first four deposits, designed to strengthen the starting journey in our casino. We also offer Daily Prize Wheel, where users can participate in a daily prize mechanic and get extra reasons to return to the account. Shark Rewards adds cashback bonuses, weekly rewards and exclusive promotions built around the user’s style of play. At Silver, Gold, Diamond and Ruby levels, users unlock shop items, redeem coins for cash or redeem rewards for cash. Birthday Bonus Surprise makes a special date even better through a personal bonus. Personalised Bonus Drops allow users to receive offers matched to favourite games rather than generic promotions. Higher Limits, Bigger Plays is created for players who want a wider scale for deposits, withdrawals and play. As part of the rewards concept, users also receive a chance to win a shark diving experience. The promotions page supports exclusive campaigns, including Four Play, Daily Prize Wheel and XP activity. Bonus conditions may include wagering requirement, contribution by game type, maximum bet and maximum payout from bonus funds. We make Shark Casino bonuses rich, personal and connected to real activity. :contentReference[oaicite:15]{index=15}
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Welcome and Deposit Offers
+</h3>
+<ul>
+  <li>• <strong>Four Play:</strong> a deposit bonus on your first four deposits, created for a strong start at Shark Casino.</li>
+  <li>• <strong>First Four Deposits:</strong> four opening deposits give the user a structured path into casino, rewards and promotions.</li>
+  <li>• <strong>Bonus Funds:</strong> bonus funds activate under the rules of the selected offer and may include wagering requirements.</li>
+  <li>• <strong>Maximum payout from bonus funds:</strong> the maximum payout from bonus funds is displayed when accepting the offer.</li>
+  <li>• <strong>Maximum bet while using bonus funds:</strong> the maximum bet, if applied, is shown in the promotion terms.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Rewards, Cashback and Personal Bonuses
+</h3>
+<ul>
+  <li>• <strong>Cashback bonuses:</strong> return-style bonuses built into Shark Rewards.</li>
+  <li>• <strong>Weekly rewards:</strong> regular rewards that support player activity.</li>
+  <li>• <strong>Exclusive promotions:</strong> special offers adapted to the user’s play style.</li>
+  <li>• <strong>Personalised Bonus Drops:</strong> bonuses based on the player’s favourite game categories.</li>
+  <li>• <strong>Birthday Bonus Surprise:</strong> a personal reward for a special date.</li>
+  <li>• <strong>Redeem coins for cash:</strong> a Silver, Gold and Diamond feature for cash-style redemption.</li>
+  <li>• <strong>Redeem rewards for cash:</strong> a Ruby-level benefit for the highest programme status.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Daily Prize Wheel and Special Events
+</h3>
+<ul>
+  <li>• <strong>Daily Prize Wheel:</strong> a daily prize mechanic with extra rewards.</li>
+  <li>• <strong>Shark Shop:</strong> a rewards shop with new shop items as status grows.</li>
+  <li>• <strong>Bonus Growth:</strong> increased bonus opportunities at advanced levels.</li>
+  <li>• <strong>VIP Manager:</strong> personal support for Ruby-level users.</li>
+  <li>• <strong>Win a Shark Diving Experience:</strong> a daily chance to win a vivid shark diving experience.</li>
+  <li>• <strong>Playson — The Cash Days:</strong> an example of a provider promotional event in the promotions area.</li>
+  <li>• <strong>XP activity:</strong> a promotional activity connected with progress and participation at Shark Casino.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Shark Casino — Popular Games, Originals, Shark Specials and Live Casino</h2>
+                        <div class="historyDescription">
+<p>
+At Shark Casino, we shape the catalogue so users can quickly move to a preferred pace: Originals, slots, live games, table games, crash games, Shark Specials, virtual sports, bingo, keno, scratch cards and minigames. Originals is one of our key areas and includes Limbo, Mines, Keno, Dice, Blackjack, Baccarat, Roulette, Advanced Dice, Plinko, Diamonds and Wheel. These games suit fast decisions, clear mechanics and short sessions. Shark Specials highlights games with ocean, adventure and shark-style energy, including Jaws of Justice, Big Bass Splash 1000, Release the Kraken Megaways, Octo Attack, Jawsome Pirates, Cursed Seas and Queen of Atlantis. In slot games, we offer thousands of titles, while New Games includes more than 9,000 entries, making the catalogue especially deep. Featured Games includes popular titles such as Sugar Rush Super Scatter, Sweet Bonanza Super Scatter, Gates of Olympus 1000, Le Bandit, Zeus vs Hades — Gods of War and Wanted Dead or a Wild. Table Games includes hundreds of titles, including Roulette European, blackjack variants and baccarat formats. Crash Games has its own category with fast titles such as Trader and Crash X Football. Live Games create the feeling of a real casino with dealers, interactive presentation and classic rules. We also offer Bingo, Keno, Scratch Cards, Minigame and Virtual Sports for users who enjoy variety. Demo mode helps players explore mechanics before real-money play. Shark Casino brings large categories, themed collections and clear navigation into one gaming lobby. :contentReference[oaicite:17]{index=17}
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Originals and Fast Games
+</h3>
+<ul>
+  <li>• <strong>Limbo:</strong> a fast format with simple decisions and quick pacing.</li>
+  <li>• <strong>Mines:</strong> a grid-pick game built around risk and gradual reveal.</li>
+  <li>• <strong>Keno:</strong> a number-based format with short rounds and clear mechanics.</li>
+  <li>• <strong>Dice:</strong> a classic fast-game mechanic for instant betting.</li>
+  <li>• <strong>Advanced Dice:</strong> an expanded dice format for more flexible play.</li>
+  <li>• <strong>Plinko:</strong> a visual mini-game with ball drop mechanics and fast results.</li>
+  <li>• <strong>Diamonds:</strong> a compact game with simple structure and instant outcomes.</li>
+  <li>• <strong>Wheel:</strong> a wheel-based format for users who enjoy visual momentum.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Shark Specials and Slots
+</h3>
+<ul>
+  <li>• <strong>Jaws of Justice:</strong> a shark-style themed slot with dynamic atmosphere.</li>
+  <li>• <strong>Big Bass Splash 1000:</strong> a fishing game with vivid presentation and bonus energy.</li>
+  <li>• <strong>Release the Kraken Megaways:</strong> an ocean adventure with Megaways mechanics.</li>
+  <li>• <strong>Octo Attack:</strong> an underwater-themed slot with quick visual pacing.</li>
+  <li>• <strong>Jawsome Pirates:</strong> a pirate game with a signature shark mood.</li>
+  <li>• <strong>Cursed Seas:</strong> a slot with dark sea atmosphere and adventure presentation.</li>
+  <li>• <strong>Queen of Atlantis:</strong> an underwater theme with strong visual style.</li>
+  <li>• <strong>Gates of Olympus 1000:</strong> a popular slot with mythological energy.</li>
+  <li>• <strong>Sugar Rush Super Scatter:</strong> a colourful slot with scatter mechanics and bonus potential.</li>
+  <li>• <strong>Wanted Dead or a Wild:</strong> a high-action slot for fans of intense bonus rounds.</li>
+</ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Live, Table, Crash and Other Formats
+</h3>
+<ul>
+  <li>• <strong>Roulette European:</strong> classic roulette inside table games.</li>
+  <li>• <strong>Blackjack:</strong> a card format available in Originals and table games.</li>
+  <li>• <strong>Baccarat:</strong> a classic casino game with quick rhythm.</li>
+  <li>• <strong>Golden Blackjack VIP:</strong> a premium blackjack format for card-game fans.</li>
+  <li>• <strong>Seotda Baccarat:</strong> a distinctive baccarat format with a different presentation.</li>
+  <li>• <strong>Trader:</strong> a crash game for quick decisions.</li>
+  <li>• <strong>Crash X Football:</strong> a football-themed crash format.</li>
+  <li>• <strong>Bingo:</strong> a separate category for users who enjoy a calmer pace.</li>
+  <li>• <strong>Scratch Cards:</strong> an instant format for short gaming breaks.</li>
+  <li>• <strong>Virtual Sports:</strong> simulated sports events for fast-betting scenarios.</li>
+</ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Minimum and Maximum Bets by Game Area
+</h3>
+<p>
+At Shark Casino, stake limits depend on the selected game, provider, live table, bonus, account currency and promotion terms. We make selection convenient: the game card or game window shows available parameters before the session begins. Lower stakes suit users exploring Originals, slots, keno, scratch cards and minigames, while higher limits fit live games, table games and VIP play. If bonus funds are active, the maximum bet and maximum payout are displayed in the terms of the selected offer. :contentReference[oaicite:19]{index=19}
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Game or Area</th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Minimum Bet</th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Maximum Bet</th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Shark Originals</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.01–0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 10,000+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Slot Games and New Games</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 100+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Shark Specials</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.10–0.20</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 100+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Live Roulette</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.10–1</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 5,000+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Blackjack and Baccarat</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 1</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 5,000+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Crash Games</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 100+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Bingo, Keno and Scratch Cards</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 50+</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"><strong>Virtual Sports</strong></td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">from 0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">up to 1,000+</td>
+    </tr>
+  </table>
+</div>
+<br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Tournaments, Daily Prize Wheel, Live Entertainment and Night-Style Atmosphere
+</h3>
+<p>
+At Shark Casino, entertainment is built around constant movement: casino games, Shark Rewards, promotions, Daily Prize Wheel, Shark Shop, Shark Specials, live games, crash games and sports book create a rich digital entertainment hub. We make sure users do more than launch games; they dive deeper by opening rewards, joining promotions, checking new games, following shop items and using personalised bonus drops. Four Play helps begin the journey with bonuses on the first four deposits, while the rewards programme adds progression, cashback and weekly rewards. Daily Prize Wheel strengthens the everyday rhythm and makes each account visit feel more event-focused. :contentReference[oaicite:23]{index=23}
+</p>
+<br>
+<p>
+Live casino and table games create the evening atmosphere of a real gaming space. Roulette, blackjack, baccarat, live dealer formats and table games give users a choice between classics, strategy and fast rounds. We strengthen the night-style format through Shark Specials, where sea, pirate and underwater themes support the signature casino lounge atmosphere. For users who enjoy faster pacing, Crash Games, Originals, minigames, Keno and Scratch Cards create compact sessions between larger games. :contentReference[oaicite:24]{index=24}
+</p>
+<br>
+<p>
+A physical nightclub is not needed because Shark Casino works as a digital lounge with round-the-clock access. A user can spend the evening with live roulette, move to Release the Kraken Megaways, play Mines, open Daily Spin Wheel and check Rewards. At higher Shark Rewards levels, priority service, higher limits, bespoke rewards and VIP Manager add premium attention. We create an atmosphere of deep online immersion where games, rewards, promotions and support work as one entertainment system. :contentReference[oaicite:25]{index=25}
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Shark Casino Entertainment
+</h3>
+<ul>
+  <li>• <strong>Live Games:</strong> live casino formats with dealers, classic rules and evening atmosphere.</li>
+  <li>• <strong>Table Games:</strong> roulette, blackjack, baccarat and other table games.</li>
+  <li>• <strong>Shark Specials:</strong> themed games with ocean, shark-style and adventure energy.</li>
+  <li>• <strong>Originals:</strong> Limbo, Mines, Keno, Dice, Blackjack, Baccarat, Roulette, Plinko, Diamonds and Wheel.</li>
+  <li>• <strong>Crash Games:</strong> fast games such as Trader and Crash X Football.</li>
+  <li>• <strong>Daily Prize Wheel:</strong> a daily reward mechanic for regular visits.</li>
+  <li>• <strong>Shark Shop:</strong> a rewards shop with new items as the level grows.</li>
+  <li>• <strong>Four Play:</strong> a deposit bonus on the first four deposits.</li>
+  <li>• <strong>Provider promotions:</strong> special promotional events, including Playson — The Cash Days.</li>
+  <li>• <strong>Sports Book:</strong> a separate betting area for users who want to combine casino and sports.</li>
+  <li>• <strong>Virtual Sports:</strong> fast sports simulations.</li>
+  <li>• <strong>VIP Rewards:</strong> priority service, VIP Manager, bespoke rewards and higher limits at advanced levels.</li>
+</ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Shark Casino — Leisure, Digital Lounge, Shark Shop and Game Areas
+</h3>
+<p>
+Shark Casino is created as an online leisure space where users receive a vivid casino experience as soon as they enter the account. We bring the atmosphere of a gaming floor, bar, lounge area, tournaments, live tables and a premium rewards club into a digital format. Users do not need to book a hotel, restaurant or physical table because Lobby, Casino, Sports Book, Rewards, Promotions, Shark Shop, Daily Prize Wheel and Support are available in one profile. This makes leisure flexible, with access from desktop, mobile or another supported platform. :contentReference[oaicite:29]{index=29}
+</p>
+<br>
+<p>
+For users who enjoy the mood of bar-style machines, we offer slots, featured games, new games and Shark Specials. These areas create a light, vivid and engaging gaming rhythm where players can move quickly from Jaws of Justice to Big Bass Splash 1000 or Release the Kraken Megaways. Live Games and Table Games work as the central digital lounge, where roulette, blackjack and baccarat create an evening atmosphere. Originals and Crash Games add fast formats for short breaks, instant decisions and dynamic play. :contentReference[oaicite:30]{index=30}
+</p>
+<br>
+<p>
+A hotel is not needed in the online format because Shark Casino works as a digital leisure hub with games, payouts, rewards and support inside one account. Shark Rewards strengthens leisure through Daily Spin Wheel, cashback bonuses, weekly rewards, Shark Shop Access, personalised bonus drops, birthday rewards and VIP Manager at Ruby level. Promotions add Four Play, Daily Prize Wheel, XP activity and provider events. We bring games, support, payments, rewards and promotions together so every visit feels like a full dive into the signature Shark Casino style. :contentReference[oaicite:31]{index=31}
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Shark Casino Leisure and Game Areas
+</h3>
+<ul>
+  <li>• <strong>Casino Lobby:</strong> the central entry area for games, rewards, promotions and support.</li>
+  <li>• <strong>Originals Lounge:</strong> Limbo, Mines, Keno, Dice, Blackjack, Baccarat, Roulette, Plinko, Diamonds and Wheel.</li>
+  <li>• <strong>Shark Specials:</strong> a signature selection with ocean, pirate and shark-style games.</li>
+  <li>• <strong>Slot Games Area:</strong> thousands of slots, new games, featured games and demo mode.</li>
+  <li>• <strong>Live Games Lounge:</strong> live casino formats for an evening casino experience.</li>
+  <li>• <strong>Table Games Room:</strong> roulette, blackjack, baccarat and other table games.</li>
+  <li>• <strong>Crash Games Zone:</strong> fast games for short and dynamic sessions.</li>
+  <li>• <strong>Keno, Bingo and Scratch Cards:</strong> calm and fast formats for variety.</li>
+  <li>• <strong>Virtual Sports Area:</strong> sports simulations for fast-betting scenarios.</li>
+  <li>• <strong>Shark Shop:</strong> a rewards shop with items, coins and cash-redemption options across programme levels.</li>
+  <li>• <strong>Daily Prize Wheel:</strong> a daily reward area with extra prizes.</li>
+  <li>• <strong>Promotions Hub:</strong> Four Play, provider events, exclusive rewards and XP activity.</li>
+  <li>• <strong>Rewards Club:</strong> Bronze, Silver, Gold, Diamond and Ruby with growing privileges.</li>
+  <li>• <strong>Digital Cashier:</strong> the area for fiat and cryptocurrency operations, deposits, withdrawals, fees and limits.</li>
+  <li>• <strong>Support Desk:</strong> help with account, KYC, payments, bonus terms and gameplay.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_is_shark_casino"/><label
+                            class="faqLabel" for="what_is_shark_casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What is Shark Casino? </span></label>
+                        <div class="faqContent">
+                            <p>Shark Casino is an online casino platform operated by Astor Holdings Ltd, offering casino games, rewards, promotions, sportsbook access, and responsible gaming information for registered guests.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_game_categories_can_our_guests_find_at_shark_casino"/><label
+                            class="faqLabel" for="what_game_categories_can_our_guests_find_at_shark_casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What game categories can our guests find at Shark Casino? </span></label>
+                        <div class="faqContent">
+                            <p>Our guests can explore Originals, Featured Games, Slot Games, Live Games, Table Games, Crash Games, Shark Specials, Virtual Sports, Bingo, Keno, Scratch Cards, Minigame titles, and Game Providers.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_many_slot_games_are_listed_at_shark_casino"/><label
+                            class="faqLabel" for="how_many_slot_games_are_listed_at_shark_casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How many slot games are listed at Shark Casino? </span></label>
+                        <div class="faqContent">
+                            <p>The official casino page lists 7,418 Slot Games.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_is_shark_rewards"/><label
+                            class="faqLabel" for="what_is_shark_rewards">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What is Shark Rewards? </span></label>
+                        <div class="faqContent">
+                            <p>Shark Rewards is our rewards system where guests earn XP from betting, progress through shark-themed levels, access the Shark Shop, and can use a daily spin wheel available every day at 5pm GMT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://sharkcasino-online.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1779273518-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Shark Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Shark Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Shark Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Shark Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Shark Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Shark Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Shark Casino" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Shark Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Shark Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Shark Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Shark Casino" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Shark Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Shark Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Shark Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Shark Casino" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Shark Casino </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "Get Bonus";
+    var playNowText = "Play now";
+    var maximumAmountText = "Maximum amount";
+    var wagerText = "Wager";
+    var bonusCodeText = "Bonus Code";
+    var depositText = "";
+    var casinoName = "Shark Casino";
+</script>
+
+</body>
+</html>

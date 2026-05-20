@@ -1,0 +1,19 @@
+{
+  "name": "Shark Casino",
+  "short_name": "Shark Casino",
+  "theme_color": "",
+  "background_color": "#191C22",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "_assets/images/1779273501-favicon.svg",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null
+}
